@@ -39,7 +39,7 @@ Acceptance requires 361-beam scan/odometry data, a SLAM map containing free and 
 
 Saved outputs include map PGM/YAML, odometry JSON, resolved Nav2 parameters, acceptance/shutdown JSON and process logs. `visualize.py <result-directory>` produces a scientific PNG with the SLAM map and odometry shown in their own coordinate frames. It requires the scientific Python environment with Matplotlib. No map/odom coincidence is assumed for plotting.
 
-The original short acceptance mission does not establish endurance or fault/replay qualification. Additional executable qualification and its finite criteria are in [QUALIFICATION.md](QUALIFICATION.md), with an [Arabic study supplement](STUDY_QUALIFICATION_AR.md). Independent review/public release remains a separate master gate. Replace the reserved maintainer address in package.xml before publication; upstream license notices and config provenance are retained in `third_party/`.
+The original short acceptance mission does not establish endurance or fault/replay qualification. Additional executable qualification and its finite criteria are in [QUALIFICATION.md](QUALIFICATION.md). Independent review/public release remains a separate master gate. Replace the reserved maintainer address in package.xml before publication; upstream license notices and config provenance are retained in `third_party/`.
 
 ## Additional qualification
 

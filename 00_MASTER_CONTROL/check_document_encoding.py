@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIRECTORIES = ('00_MASTER_CONTROL', '01_FPGA_EMBEDDED', '02_ROBOTICS_NAVIGATION',
                       '03_COMPUTER_VISION', '04_SENSOR_FUSION', '05_MEASUREMENT_TIMING',
                       '06_UAV_DIGITAL_TWIN', '07_STUDY_GUIDES')
-MARKERS = ('ط§ظ„', 'â€', 'â‰', 'â†', '\ufffd')
+MARKERS = ('\u0637§\u0638„', 'â€', 'â‰', 'â†', '\ufffd')
 EXCLUDED = {'datasets', 'build', 'install', 'log', '__pycache__'}
 
 

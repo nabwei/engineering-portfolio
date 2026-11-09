@@ -90,7 +90,7 @@ Evidence root: `../../08_TEST_RESULTS/robotics/qualification_20261026/`. Source 
 - `test_endurance.py`: ten-goal mission; stationary-start SE(2) alignment held fixed; no truth substitution into navigation; thresholds and measured outcomes.
 - `test_planner_qualification.py`, `test_velocity_guard.py`: actual server/node interfaces, controlled failure causes and recovery. Planner latest-pose semantics are characterized separately from actuator safety.
 - `test_bag_replay.py`: recorded source digests versus both actual ROS replays, raw CDR subscription, QoS override and per-topic ordering.
-- `visualize_qualification.py`, `QUALIFICATION.md`, `STUDY_QUALIFICATION_AR.md`, `README.md`, `third_party/ATTRIBUTION.md`: claims and frame boundaries.
+- `visualize_qualification.py`, `QUALIFICATION.md`, `README.md`, `third_party/ATTRIBUTION.md`: claims and frame boundaries.
 
 ## Failures retained and corrected
 

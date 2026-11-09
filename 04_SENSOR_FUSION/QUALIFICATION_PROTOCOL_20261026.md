@@ -18,7 +18,7 @@ Required checks: finite-difference relative-pose Jacobian; covariance positive
 semidefiniteness and common-position uncertainty preservation; inertial motion
 and bias tests; synthetic outlier/dropout tests; complete post-initialization
 public sequence with integer timestamp alignment and calibration; repeated
-deterministic output; independently reviewed source and Arabic derivation.
+deterministic output; independently reviewed source and mathematical derivation.
 
 Predeclared numerical acceptance for the reserved segment: SE(3)-aligned ATE
 RMSE <= 1.0 m, one-second translation RPE RMSE <= 0.30 m, one-second rotation

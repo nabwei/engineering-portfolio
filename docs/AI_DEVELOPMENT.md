@@ -1,14 +1,9 @@
-# AI-assisted development
+# Development notes
 
-These projects were developed with substantial AI assistance using local coding
-agents (Codex and Claude Code), including architecture, source, tests and documentation.
-Claude Code also coordinated implementation and review agents. Reviews found defects;
-corrections and reruns were recorded. AI review is not independent certification.
+Development used Codex and Claude Code for implementation, tests, documentation
+and review. Changes were checked with executable tests and simulations. Review
+findings led to corrections and reruns; this process is not external certification.
 
-The owner directed the work and is studying the implementation. This portfolio does
-not claim that every line was written manually or that simulations establish physical
-device performance. Executable tests, explicit assumptions and retained failure results
-are the basis for the claims. Research failures are disclosed in the portfolio status.
-
-Private university work, acquired datasets, credentials and operational conversations
-are excluded. MIT covers contributor-owned code; upstream licenses remain separate.
+The project READMEs describe the assumptions, reproduction steps and known limits.
+Passing software tests does not establish hardware performance or resolve the
+accuracy issues documented for the research prototypes.

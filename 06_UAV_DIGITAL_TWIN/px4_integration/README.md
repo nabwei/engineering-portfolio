@@ -102,8 +102,7 @@ are additional studies, not missing features required by the original simulation
 request. Timestamp/ACK failure injection is currently unit-level; process cleanup
 and invalid geometric inputs also have executed failure tests. None of those unit
 tests is described as a live communication-path fault experiment. Independent review
-and release packaging remain separately tracked portfolio activities. See the
-[Arabic study supplement](STUDY_AR.md).
+and release packaging remain separately tracked portfolio activities.
 
 
 ## Historical capture provenance

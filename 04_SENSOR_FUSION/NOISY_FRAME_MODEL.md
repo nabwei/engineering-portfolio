@@ -1,8 +1,5 @@
 # Adjacent increments with an explicit noisy-frame pose model
 
-[Arabic study supplement](NOISY_FRAME_STUDY_AR.md) includes the derivation,
-code walkthrough, English/German terminology and exercises.
-
 This model was developed in bounded V1 experiments and then frozen for a V2
 attempt. All V1 is already observed development data; no V2 trajectory errors
 inform this model. Existing numerical
