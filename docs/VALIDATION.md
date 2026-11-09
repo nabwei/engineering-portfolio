@@ -2,7 +2,7 @@
 
 Public source snapshot prepared on 9 November 2026 from the reviewed 28–29 October
 implementation checkpoint `37b38317c38829d685ba0c4c430984eea5f19fa6`.
-Fresh publication-check results are in `publication_checks.json` alongside this document.
+Fresh publication-check results are in [publication_checks.json](publication_checks.json) alongside this document.
 GitHub Actions reports the actual remote result separately.
 
 ## Recorded engineering qualification
@@ -41,7 +41,7 @@ Original raw bags, licensed datasets, research trial outputs and operational rev
 transcripts remain local. Historical paths mentioning `08_TEST_RESULTS` in module
 notes describe that private evidence workspace or outputs to generate locally; those
 files are not claimed to be downloadable here. Current public evidence is selected
-and sanitized. Source hashes are recorded in `SOURCE_PROVENANCE.json`.
+and sanitized. Source hashes are recorded in [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json).
 
 Claude Code coordinated implementation and independent review agents, with actual
 model metadata `claude-fable-5-1` and High effort requested. Review corrections were
