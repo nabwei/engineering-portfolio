@@ -1,0 +1,14 @@
+[  9%] Building CXX object CMakeFiles/robot_core.dir/src/world.cpp.o
+[ 18%] Building CXX object CMakeFiles/robot_core.dir/src/kinematics.cpp.o
+[ 27%] Building CXX object CMakeFiles/robot_core.dir/src/lidar.cpp.o
+[ 36%] Building CXX object CMakeFiles/robot_core.dir/src/estimation.cpp.o
+[ 45%] Building CXX object CMakeFiles/robot_core.dir/src/planning.cpp.o
+[ 54%] Building CXX object CMakeFiles/robot_core.dir/src/control.cpp.o
+[ 63%] Linking CXX static library librobot_core.a
+[ 63%] Built target robot_core
+[ 81%] Building CXX object CMakeFiles/robot_demo.dir/src/demo.cpp.o
+[ 81%] Building CXX object CMakeFiles/robot_tests.dir/tests/test_robot.cpp.o
+[ 90%] Linking CXX executable robot_tests
+[100%] Linking CXX executable robot_demo
+[100%] Built target robot_tests
+[100%] Built target robot_demo

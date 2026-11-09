@@ -1,0 +1,47 @@
+{
+  "status": "FAIL",
+  "documents": 47,
+  "scope": "UTF-8 and known corruption signatures, not semantic proofreading",
+  "problems": [
+    {
+      "file": "02_ROBOTICS_NAVIGATION/ros2_navigation/README.md",
+      "line": 5,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "02_ROBOTICS_NAVIGATION/ros2_navigation/README.md",
+      "line": 38,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "02_ROBOTICS_NAVIGATION/ros2_navigation/README.md",
+      "line": 58,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "03_COMPUTER_VISION/README.md",
+      "line": 19,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "03_COMPUTER_VISION/README.md",
+      "line": 129,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "03_COMPUTER_VISION/README.md",
+      "line": 130,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "03_COMPUTER_VISION/README.md",
+      "line": 131,
+      "reason": "known double-encoding or replacement signature"
+    },
+    {
+      "file": "03_COMPUTER_VISION/README.md",
+      "line": 132,
+      "reason": "known double-encoding or replacement signature"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot name="portfolio_planar_arm">
+ <link name="base"><inertial><mass value="1"/><inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0"/></inertial><visual><geometry><cylinder radius="0.09" length="0.16"/></geometry><material name="base"><color rgba="0.2 0.3 0.4 1"/></material></visual></link>
+ <link name="link1"><inertial><origin xyz="0.5 0 0"/><mass value="1"/><inertia ixx="0.002" iyy="0.084" izz="0.084" ixy="0" ixz="0" iyz="0"/></inertial><visual><origin xyz="0.5 0 0"/><geometry><box size="1 0.08 0.08"/></geometry><material name="blue"><color rgba="0.2 0.7 0.9 1"/></material></visual><collision><origin xyz="0.5 0 0"/><geometry><box size="1 0.08 0.08"/></geometry></collision></link>
+ <joint name="shoulder" type="revolute"><parent link="base"/><child link="link1"/><axis xyz="0 0 1"/><limit lower="-2.8" upper="2.8" effort="20" velocity="2"/></joint>
+ <link name="link2"><inertial><origin xyz="0.4 0 0"/><mass value="0.8"/><inertia ixx="0.001" iyy="0.043" izz="0.043" ixy="0" ixz="0" iyz="0"/></inertial><visual><origin xyz="0.4 0 0"/><geometry><box size="0.8 0.07 0.07"/></geometry><material name="gold"><color rgba="0.9 0.7 0.2 1"/></material></visual><collision><origin xyz="0.4 0 0"/><geometry><box size="0.8 0.07 0.07"/></geometry></collision></link>
+ <joint name="elbow" type="revolute"><origin xyz="1 0 0"/><parent link="link1"/><child link="link2"/><axis xyz="0 0 1"/><limit lower="-2.8" upper="2.8" effort="10" velocity="2"/></joint>
+</robot>

@@ -1,0 +1,30 @@
+-- Install configuration: "Debug"
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/lib/portfolio_navigation/portfolio_sim
+-- Set non-toolchain portion of runtime path of "<LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/lib/portfolio_navigation/portfolio_sim" to ""
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/lib/portfolio_navigation/velocity_guard
+-- Set non-toolchain portion of runtime path of "<LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/lib/portfolio_navigation/velocity_guard" to ""
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/launch
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/launch/gazebo_navigation.launch.py
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/launch/navigation.launch.py
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/worlds
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/worlds/inspection_room.sdf
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/config
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/config/slam_params_v1.yaml
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/config/slam_params_v2.yaml
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/ament_index/resource_index/package_run_dependencies/portfolio_navigation
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/ament_index/resource_index/parent_prefix_path/portfolio_navigation
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/environment/ament_prefix_path.sh
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/environment/ament_prefix_path.dsv
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/environment/path.sh
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/environment/path.dsv
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/local_setup.bash
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/local_setup.sh
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/local_setup.zsh
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/local_setup.dsv
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/package.dsv
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/ament_index/resource_index/packages/portfolio_navigation
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/cmake/portfolio_navigationConfig.cmake
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/cmake/portfolio_navigationConfig-version.cmake
+-- Installing: <LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/02_ROBOTICS_NAVIGATION/ros2_navigation/install/portfolio_navigation/share/portfolio_navigation/package.xml
+...........................                                              [100%]
+27 passed in 2.12s

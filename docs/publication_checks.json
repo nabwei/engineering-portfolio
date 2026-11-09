@@ -1,0 +1,245 @@
+{
+  "timestamp_utc": "20261109T123048683244Z",
+  "scope": "Public curated source checks on Ubuntu 24.04/WSL2; no new dataset qualification or heavy flight/navigation mission.",
+  "checks": [
+    {
+      "name": "G_configure",
+      "cwd": "02_ROBOTICS_NAVIGATION/robot_core",
+      "command": [
+        "cmake",
+        "-S",
+        ".",
+        "-B",
+        "build",
+        "-DCMAKE_BUILD_TYPE=Debug"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/G_configure.log"
+    },
+    {
+      "name": "G_build",
+      "cwd": "02_ROBOTICS_NAVIGATION/robot_core",
+      "command": [
+        "cmake",
+        "--build",
+        "build",
+        "-j2"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/G_build.log"
+    },
+    {
+      "name": "G_test",
+      "cwd": "02_ROBOTICS_NAVIGATION/robot_core",
+      "command": [
+        "ctest",
+        "--test-dir",
+        "build",
+        "--output-on-failure"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/G_test.log"
+    },
+    {
+      "name": "D",
+      "cwd": "03_COMPUTER_VISION",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/D.log"
+    },
+    {
+      "name": "I",
+      "cwd": "04_SENSOR_FUSION",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/I.log"
+    },
+    {
+      "name": "J_unit",
+      "cwd": "02_ROBOTICS_NAVIGATION/arm",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/J_unit.log"
+    },
+    {
+      "name": "J_mission",
+      "cwd": "02_ROBOTICS_NAVIGATION/arm",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "run.py",
+        "--output",
+        "<LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/08_TEST_RESULTS/aggregate/20261109T123048683244Z/arm"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/J_mission.log"
+    },
+    {
+      "name": "K_unit",
+      "cwd": "02_ROBOTICS_NAVIGATION/fleet",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/K_unit.log"
+    },
+    {
+      "name": "K_mqtt",
+      "cwd": "02_ROBOTICS_NAVIGATION/fleet",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "run.py",
+        "--output",
+        "<LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/08_TEST_RESULTS/aggregate/20261109T123048683244Z/fleet"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/K_mqtt.log"
+    },
+    {
+      "name": "L_unit",
+      "cwd": "06_UAV_DIGITAL_TWIN/inspection",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/L_unit.log"
+    },
+    {
+      "name": "L_scene_reconstruction",
+      "cwd": "06_UAV_DIGITAL_TWIN/px4_integration",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "test_scene.py",
+        "test_reconstruct.py",
+        "test_geometry.py",
+        "test_processes.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/L_scene_reconstruction.log"
+    },
+    {
+      "name": "L_reduced_mission",
+      "cwd": "06_UAV_DIGITAL_TWIN/inspection",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "run.py",
+        "--output",
+        "<LOCAL_WORKSPACE>/10_GITHUB_RELEASES/publication_20261109/engineering-portfolio/08_TEST_RESULTS/aggregate/20261109T123048683244Z/inspection"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/L_reduced_mission.log"
+    },
+    {
+      "name": "document_encoding",
+      "cwd": ".",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "00_MASTER_CONTROL/check_document_encoding.py"
+      ],
+      "status": "FAIL",
+      "exit_code": 1,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/document_encoding.log"
+    },
+    {
+      "name": "python_static",
+      "cwd": ".",
+      "command": [
+        "<LOCAL_WORKSPACE>/.venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "03_COMPUTER_VISION",
+        "04_SENSOR_FUSION",
+        "02_ROBOTICS_NAVIGATION/arm",
+        "02_ROBOTICS_NAVIGATION/fleet",
+        "06_UAV_DIGITAL_TWIN",
+        "00_MASTER_CONTROL/run_validation.py",
+        "00_MASTER_CONTROL/check_document_encoding.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "08_TEST_RESULTS/aggregate/20261109T123048683244Z/python_static.log"
+    }
+  ],
+  "corrections": [
+    {
+      "check": "document_encoding",
+      "status": "PASS",
+      "reason": "Windows locale decoded prepended README text incorrectly; restored the original UTF-8 bytes and reran the encoding check.",
+      "evidence": "evidence/document_encoding_corrected.json"
+    },
+    {
+      "check": "ROS public build/install and focused tests",
+      "status": "PASS",
+      "tests_passed": 27,
+      "reason": "After building/installing, disabled unrelated auto-loaded system pytest plugins; original invocation failure retained locally.",
+      "evidence": "evidence/ros_validation_corrected.log"
+    },
+    {
+      "check": "measurement extension",
+      "status": "PASS",
+      "tests_passed": 19,
+      "reason": "Run from module directory as documented; corrected initial CI working directory.",
+      "evidence": "evidence/measurement_validation_corrected.log"
+    }
+  ],
+  "latest_combined_status": "PASS (13 original checks plus corrected encoding check; initial failure retained above)",
+  "qualification_failures": [
+    "D: recall / precision targets not met",
+    "I: trajectory / initialization targets not met"
+  ],
+  "log_sha256": {
+    "D.log": "0e56cdc9fcdf063bcec921f78689e9236cadd055abc92239398064ba191a3e08",
+    "document_encoding.log": "e926bd6c55b3f3490a86dfb55860bdff0e1c89baa319d11c945013ef2969ff38",
+    "document_encoding_corrected.json": "6a4f3064a8af6a04918d17581294829b460d8610278a900ab56f24898c6881ec",
+    "G_build.log": "aa1a088fd06c9b77a8b84919639c153db6e035a2f6e40504d137b92ba6a4d0ec",
+    "G_configure.log": "adbaabaa2e37169b03dbf3f0b2a0a073499cdecef0e3a605f75f5c9e65eaa1cd",
+    "G_test.log": "5da5765570839b3b263b6c05b1f7484c62be803fd5fda6227e7d47f636d3d20d",
+    "I.log": "a8703febfe465a398c860146d596a33ec866f8db0d4e84107e5c8a7ee54ec4d0",
+    "J_mission.log": "d9baca02fa166d520500a1f830d8f7506891e215bfeb831a178d8ffb8757c3e1",
+    "J_unit.log": "89b70e4296b747c159953d2b748b9c0b2dce6180cf2fce2ae5b97c36958d7e9f",
+    "K_mqtt.log": "7d598e08cf8f187a22b9bf18f55e894cd82b5b274317d874997cfee441ca4fb3",
+    "K_unit.log": "631a526c7c45296c27de96f4bacfdab9c7912b413fa73624b2d7239e1640ede5",
+    "L_reduced_mission.log": "199e47e4e5d5bb0ffe0b877e625a56cced9d9427c0fcb2a7e8eac8361631aa0b",
+    "L_scene_reconstruction.log": "7ea1527816990cac75b75415f132ad10a4fd94bc42177021a4d32e06e6511abe",
+    "L_unit.log": "f7da4c058ffa1f70ffbfbf4cfe8da9eabf5b33029c3479844e87f6c788374492",
+    "measurement_validation_corrected.log": "64af92ad18ca41b25cd3a7c5edf47f296da5bf683beec40ce8a87e0c04c93e93",
+    "python_static.log": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0",
+    "ros_validation_corrected.log": "38e33d9a2302301e79a22ff545359f2570d25eef07012b46d03b9b55cacdfb52"
+  }
+}

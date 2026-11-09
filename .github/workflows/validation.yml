@@ -1,0 +1,21 @@
+name: Portfolio software checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y mosquitto
+      - run: python -m pip install -r requirements-linux.txt
+      - run: python 00_MASTER_CONTROL/run_validation.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: software-test-evidence
+          path: 08_TEST_RESULTS/aggregate/

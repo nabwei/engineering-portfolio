@@ -1,0 +1,6 @@
+numpy==2.2.6
+scipy==1.15.3
+opencv-python-headless==4.11.0.86
+matplotlib==3.10.3
+pytest==8.3.5
+PyYAML==6.0.2

@@ -1,0 +1,2 @@
+pybullet build time: Oct 25 2026 20:56:08
+{"status": "PASS", "coverage_fraction": 0.9918333333333333, "coverage_definition": "fraction of 12000 seeded area-uniform reference surface samples within 4 cm of backprojected cloud", "reference_to_cloud_median_m": 0.003958960240667178, "cloud_points": 105399, "frames": 64, "simulation_seconds": 120.84583333333333, "plant": "PyBullet force-controlled point mass, no PX4 or rotor model", "reconstruction": "simulated calibrated depth, known camera poses; not monocular SfM"}

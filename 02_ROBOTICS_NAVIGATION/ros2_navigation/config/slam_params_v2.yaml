@@ -1,0 +1,23 @@
+# SLAM Toolbox configuration version 2 (2026-10-28): every frozen v1 value from
+# slam_params_v1.yaml plus the single candidate selected by the predeclared offline
+# development rule (08_TEST_RESULTS/completion_20261028/h_slam_v2/SELECTION.json,
+# candidate c1_buffer100). scan_buffer_size follows the Karto rule
+# ScanBufferSize ~= ScanBufferMaximumScanDistance / MinimumTravelDistance = 10 m / 0.1 m.
+# Selected only through the gazebo_navigation.launch.py argument slam_params_file;
+# the launch default remains the v1 file. No threshold, route or physics is changed.
+slam_toolbox:
+  ros__parameters:
+    base_frame: base_link
+    check_min_dist_and_heading_precisely: true
+    map_frame: map
+    max_laser_range: 10.0
+    minimum_time_interval: 0.1
+    minimum_travel_distance: 0.1
+    minimum_travel_heading: 0.1
+    mode: mapping
+    odom_frame: odom
+    resolution: 0.05
+    scan_buffer_size: 100
+    scan_topic: /scan
+    use_lifecycle_manager: true
+    use_sim_time: true

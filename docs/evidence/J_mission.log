@@ -1,0 +1,2 @@
+pybullet build time: Oct 25 2026 20:56:08
+{"status": "PASS", "simulator": "PyBullet DIRECT", "planning": "RRT*", "waypoints": 10, "samples": 400, "goal_joint_error_rad": 1.3697575697126277e-05, "final_endpoint_m": [0.0627038605757459, 1.7194749691544104]}
